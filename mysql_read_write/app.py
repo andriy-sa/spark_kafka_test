@@ -11,7 +11,7 @@ spark = SparkSession \
     .builder \
     .config("spark.executor.memory", "1g") \
     .config("spark.cores.max", "2") \
-    .appName("test_rdd") \
+    .appName("test_mysql") \
     .getOrCreate()
 
 if __name__ == '__main__':
